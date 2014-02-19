@@ -1,0 +1,38 @@
+p {
+    text-indent:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	color: #663366;
+	text-shadow: 1px 1px 0px #330000;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	font-size: xx-large;
+	font-style: normal;
+	text-decoration: blink;
+}
+html{
+    background-image:url(images/background.jpg);
+    background-repeat: repeat;
+}
+
+body{
+	font-family: "Comic Sans MS", cursive;	font-size: medium;
+}
+
+pre{
+	text-align: center;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+hr {
+	color: #990099;
+	border: thick groove #909;
+}

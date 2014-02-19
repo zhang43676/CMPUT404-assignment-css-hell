@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: small;
+	font-style: normal;
+	background-color: #F00;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	height: auto;
+	width: auto;
+	color: #FF3;
+}
+
+div.sidebar {
+	background-color: #F0F;
+	width: 19%;
+	height: 100%;
+	float: left;
+	font-family: "Comic Sans MS", cursive;
+	font-size: xx-large;
+	line-height: 2em;
+	text-decoration: blink;
+}
+h1,h1,h2,h3,h4,h5,h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	text-decoration: blink;
+}
+div.footer {
+	margin-top:1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	text-decoration: blink;
+}
+

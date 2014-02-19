@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Zhao Zhang</title>
+<link rel="stylesheet" type="text/css" href="good.css" />
+</head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Languages skills', 'percentages'],
+          ['C/C++',     15],
+          ['Python',      30],
+          ['Java',  20],
+          ['Php', 20],
+          ['Html/Css',    15]
+        ]);
+
+        var options = {
+          title: 'Languages skills'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+<body>
+<div class="sidebar">
+  <p><img src="images/zhao.jpg" width="194" height="310" /></p>
+      <h1>MySelf</h1>
+    <p>Hi! My name is Zhao Zhang. I'm a 4th year computer science student in university of alberta.</p>
+    <p>I come from TianJin,China. This is my 5th year in Canada.</p>
+    <p> I will be graduated at the end of 2014. After graduated, I will try to find a junior programmer job in Calgary.</p>
+    <p> I'm interested in computer graphic, gaming design, and hardware building.I help more than 10 friends build their computers.</p>
+    <p>My favorite games are, Diablo, The Elder Scrolls, Crycis, and Chinese-paladin.
+  </p>
+  <p>I am a very open-minded person. If you want to share some gaming experences with me. You are very welcome.  </p>
+  <p><img src="images/28.gif" width="108" height="143"/>
+  </p>
+</div>
+<div class="content">
+    <h2>History</h2>
+    <p>I started my life at the Unviersity Of Alberta in 2010. At first, I want to be a engineering student, but then I feel it is too many competition. I took computer 174 in my first term, and that is my first course that got an A. I studied Earth Science at my second years. Later on, I felt I'm not good at memories stuff. So I decided to study computer science.</p>
+    <p> Computer Science courses that I have taken or currently taking:<p> CMPUT 174 Introduction to the Foundations of Computation I</p>
+    <p> CMPUT 175 Introduction to the Foundations of Computation II</p>
+    <p> CMPUT 201 Practical Programming Methodology</p>
+    <p> CMPUT 204 Algorithms I</p>
+    <P> CMPUT 206 Introduction to Digital Image Processing</p>
+    <P> CMPUT 229 Computer Organization and Architecture I</P>
+    <p> CMPUT 272 Formal Systems and Logic in Computing Science</p>
+    <P> CMPUT 291 Introduction to File and Database Management</P>
+    <P> CMPUT 301 Introduction to Software Engineering</P>
+    <P> CMPUT 302 Introduction to Human Computer Interaction</P>
+    <P> CMPUT 307 3D Graphics and Animation with 3DS Max</P>
+    <P> CMPUT 329 Computer Organization and Architecture II</P>
+    <P> CMPUT 391 Database Management Systems</P>
+    <P> CMPUT 410 Web-Based Information Systems</P>
+    
+    
+    <h3>What I can offer</h3>
+    <div id="piechart" style="width: 450px; height: 250px;padding-left: 45%;"></div>
+    <p>Writing Skills --Ability to efficiently produce concise, organized reports, labs and memos.</p>
+    <p>Public Speaking -Finalist in Senior High School Speaking Competition.Gained confidence and learned to engage audiences with my creative speeches.</p>
+    <h4>Important points of me</h4>
+    <p>Battlefield 4 is awsome!</p>
+    <p>my origin account is zhjs4590@hotmail.com</p>
+    <p>Looking for teammates!</p>
+    <!-- end .content --></div>
+     
+<div class="footer">
+    <p>All copy rights reserve by Zhao Zhang. If you have any question, please contact me at zz9@ualberta.ca</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
