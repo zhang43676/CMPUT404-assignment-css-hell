@@ -1,38 +1,45 @@
 @charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 body {
-	font-family: "Times New Roman", Times, serif;
-	font-size: small;
+	font-family: "Comic Sans MS", cursive;
+	font-size: medium;
 	font-style: normal;
-	background-color: #F00;
+	background-color: #FFF;
 	letter-spacing: 1px;
 	word-spacing: 1px;
 	height: auto;
 	width: auto;
-	color: #FF3;
+	color: #000;
 }
 
+
 div.sidebar {
-	background-color: #F0F;
+	background-color: #FF0;
 	width: 19%;
 	height: 100%;
 	float: left;
 	font-family: "Comic Sans MS", cursive;
-	font-size: xx-large;
+	font-size: medium;
 	line-height: 2em;
 	text-decoration: blink;
+	color: #696;
 }
 h1,h1,h2,h3,h4,h5,h6 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-small;
+	font-family: "Comic Sans MS", cursive;
+	font-size: xx-large;
 	font-style: normal;
-	text-decoration: blink;
+	color: #000;
 }
 div.footer {
-	margin-top:1em;
-	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 1em;
+	font-family: "Comic Sans MS", cursive;
 	font-size: large;
 	text-decoration: blink;
 }
+/* CSS Document */
 
+.sidebar p {
+	color: #6C6;
+}

@@ -13,13 +13,12 @@ body {
 	height: auto;
 	width: auto;
 }
-
 div.sidebar {
 	background-color: #39F;
 	width: 19%;
 	height: 100%;
 	float: left;
-	font-family: "Comic Sans MS", cursive;
+	font-family: "Times New Roman", Times, serif;
 	font-size: medium;
 	line-height: 2em;
 }
